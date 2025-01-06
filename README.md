@@ -8,4 +8,17 @@ Responsive Design: Mobile-first UI with Tailwind CSS.
 Payout Calculator: Calculates payouts with configurable rates.
 Export: Export data to PDF/CSV.
 Analytics: Bar charts using Chart.js.
+folder structure is
+-src
+- /pages
+  - index.js      # Dashboard UI
+  - api/
+    - auth.js  # Authentication API
+- /components
+  - Filters.js    # Filtering UI
+  - NewsList.js   # News list
+  - Analytics.js  # Charts and analytics
+- /utils
+  - api.js        # API integrations
+  - export.js     # Export functionalities
 
